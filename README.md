@@ -1,4 +1,4 @@
-# running-reduce
+# streaming-reduce
 
 Reduce streams to a single value, but with a new value on each new piece of data
 
