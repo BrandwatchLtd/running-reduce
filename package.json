@@ -1,0 +1,32 @@
+{
+  "name": "streaming-reduce",
+  "version": "1.0.0",
+  "description": "reduce streams to a single value, on each new piece of data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BrandwatchLtd/streaming-reduce.git"
+  },
+  "keywords": [
+    "stream",
+    "reduce",
+    "running",
+    "streaming"
+  ],
+  "author": "Fabien O'Carroll <fabien@brandwatch.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrandwatchLtd/streaming-reduce/issues"
+  },
+  "homepage": "https://github.com/BrandwatchLtd/streaming-reduce#readme",
+  "devDependencies": {
+    "standard": "^6.0.4",
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "through2": "^2.0.1"
+  }
+}
